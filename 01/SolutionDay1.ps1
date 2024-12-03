@@ -1,4 +1,4 @@
-$puzzleInput = gc .\input.txt
+$puzzleInput = gc .\originalinput.txt
 # playing with parser 
 # $puzzleInput | %{$foo = $_ -split '\s+'; write-host "Foo sub 0 is: $($foo[0])`nFoo sub 1 is : $($foo[1])";}
 # initialize some empty arrays
